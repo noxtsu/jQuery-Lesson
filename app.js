@@ -1,9 +1,17 @@
 $(function(){
-  $('.box1').mouseover(function(){
-    $('.box2').css({'background-color': '#0000FF'});
+  $('.bg1').on('click', function(){
+    $('.bg1').slideUp();
   });
-  $('.box1').mouseout(function(){
-    $('.box2').css({'background-color': '#FF0000'});
-  });
- });
 
+  $('.bg2').on('click', function(){
+    $('.bg2').slideUp();
+  });
+
+  $('.bg3').on('click', function(){
+    $('.bg3').slideUp();
+  });
+
+  $('.bg4').on('click', function(){
+    $('.bg4').slideUp();
+  });
+});
